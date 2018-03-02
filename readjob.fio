@@ -1,0 +1,14 @@
+[global]
+name=fioread
+ioengine=libaio
+rw=read
+numjobs=8
+direct=1
+bs=4K
+filename=/data/testfile
+runtime=300
+time_based=1
+iodepth=16
+size=10g
+group_reporting
+

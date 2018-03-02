@@ -1,0 +1,14 @@
+[global]
+name=fiorw
+ioengine=libaio
+filename=/data/testfile
+rw=randrw
+rwmixread=60
+rwmixwrite=40
+bs=4k
+direct=1
+numjobs=8
+time_based=1
+runtime=900
+iodepth=16
+size=10g
