@@ -6,7 +6,7 @@ RUN apt-get update -yq && apt-get install -yq fio
 
 RUN mkdir /data /config
 
-ADD job.fio /config/
+ADD *.fio /config/
 ADD start.sh /start.sh
 
 RUN chmod +x /start.sh
