@@ -12,3 +12,4 @@ iodepth=16
 size=10g
 group_reporting
 
+[randwritejob]
