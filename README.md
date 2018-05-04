@@ -6,3 +6,5 @@ docker run -it -v /path/to/test/dir:/data -e JOB_NAME='read' toasterlint/dockerf
 
 To run R(60%) / W(40%) test:
 docker run -it -v /path/to/test/dir:/data -e JOB_NAME='rw' toasterlint/dockerfio
+
+If filesystem complains about no direct access, try appending "-nodirect" to the JOB_NAME you are attempting to run.
